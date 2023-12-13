@@ -39,7 +39,9 @@ const App = () => {
         <ul>
           {tasks.map((task, index) => (
             <li key={index}>
+              <div>
               {task}
+                </div>
               <button onClick={() => deleteTask(index)}>Delete</button>
             </li>
           ))}
