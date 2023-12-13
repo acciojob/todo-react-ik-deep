@@ -42,7 +42,7 @@ const App = () => {
               <div>
               {task}
                 </div>
-              <button onClick={() => deleteTask(index)}>Delete</button>
+              <button onClick={() => deleteTask(index)}>lete</button>
             </li>
           ))}
         </ul>
